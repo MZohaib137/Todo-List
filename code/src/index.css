@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.main{
+    margin: 70px auto ;
+    max-width: 300px;
+    border: 1px solid;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+.add{
+    z-index: 10;
+    position: fixed;
+    margin-left: 170px;
+
+    
+}
+.add:hover{
+   background-color: green;
+   border-radius: 30px;
+   box-shadow: 1px 1px 1px 20px red;
+   transition:box-shadow 0.5s ease ;
+    
+}
+.add:active{
+    background-color: red;
+    box-shadow: 1px 1px 1px 20px yellow;
+   transition:box-shadow 0.5s ease ease-in-out ;
+}
+.input{
+    border: 1px solid;
+    z-index: 9;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    
+}
+.d{
+    margin-top: 20px;
+    
+}
+.dnc{
+    border: 1px solid;
+    margin-top: 10px;
+    padding: 3px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.m{
+}
+
+.edit:hover{
+    background-color: green;
+    border-radius: 30px;
+    padding: 3px;
+    
+     
+ }
+ .dlt:hover{
+    background-color: red;
+    border-radius: 30px;
+    padding: 3px;
+    
+     
+ }
